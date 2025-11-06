@@ -24,7 +24,7 @@ public class KafeDoWhile14 {
             bread = sc.nextInt();
 
             totalPrice = (coffee * coffeePrice) + (tea * teaPrice) + (bread * breadPrice);
-            System.out.println("Total price for " + customerName + " is: " + totalPrice);
+            System.out.println("Total to be paid: Rp " + totalPrice);
             sc.nextLine();
         } while (true);
 
